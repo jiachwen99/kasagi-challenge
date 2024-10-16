@@ -4,7 +4,10 @@
   "scripts": {
     "build": "tsc",
     "start:a": "ts-node ./src/challengeA.ts",
-    "start:b": "ts-node ./src/challengeB.ts"
+    "start:b": "ts-node ./src/challengeB.ts",
+    "docker:build": "docker build -t kasagi-challenge .",
+    "docker:run": "docker run --name kasagi-challenge-container -v \"%cd%/objects.txt:/usr/src/app/input/objects.txt\" -v \"%cd%/output:/usr/src/app/output\" kasagi-challenge",
+    "docker:build-run": "pnpm run docker:build && pnpm run docker:run"
   },
   "devDependencies": {
     "@types/node": "^18.19.55",

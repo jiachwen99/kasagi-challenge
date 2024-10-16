@@ -2,7 +2,7 @@
 # Participant : JC Tan
 # Email : jiachwen99@gmail.com
 # Time Started : 9:10 PM 16/10/2024
-# Time Ended : 10:10 PM 16/10/2024
+# Time Ended : 10:12 PM 16/10/2024
 
 ## Question
 # Challenge A
@@ -18,9 +18,8 @@ Dockerize Challenge B. Write a docker file so that it reads the output from Chal
 
 1. Clone the repository
 2. Run `npm install`
-3. Replace the .env.example to .env and fill in the File with your preferred file name.
-4. Run `npm run start:a` to run challenge A
-5. Run `npm run start:b` to run challenge B
+3. Run `npm run start:a` to run challenge A
+4. Run `npm run start:b` to run challenge B
 
 ## Running Challenge C (Dockerized version)
 

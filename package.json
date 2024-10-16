@@ -2,7 +2,8 @@
   "name": "kasagi-challenge",
   "version": "1.0.0",
   "scripts": {
-    
+    "build": "tsc",
+    "start:a": "ts-node ./src/challengeA.ts"
   },
   "devDependencies": {
     "@types/node": "^18.19.55",
